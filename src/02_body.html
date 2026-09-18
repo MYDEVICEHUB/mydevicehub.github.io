@@ -1,0 +1,39 @@
+</style>
+</head>
+<body>
+<a class="sr" href="#home">Skip to content</a>
+
+<!-- ============ TOP BAR ============ -->
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <div class="brand-mark" id="brandMark" aria-hidden="true"></div>
+      <div class="brand-txt">
+        <div class="brand-name">My Device Hub</div>
+        <div class="brand-tag" id="brandTag">Your Personal Device Command Center</div>
+      </div>
+    </div>
+    <div class="topbar-right" id="topbarRight"></div>
+  </div>
+</header>
+
+<!-- ============ MAIN VIEW ============ -->
+<main class="shell">
+  <div id="storageBanner"></div>
+  <section id="view" class="view" aria-live="polite"></section>
+  <footer class="copy-foot" id="appFooter"></footer>
+</main>
+
+<!-- ============ BOTTOM NAV ============ -->
+<nav class="tabbar" aria-label="Main navigation">
+  <div class="tabbar-in" id="tabbar"></div>
+</nav>
+
+<!-- ============ OVERLAYS ============ -->
+<div id="modalRoot"></div>
+<div class="toasts" id="toastRoot" aria-live="polite" aria-atomic="false"></div>
+<input type="file" id="imgPicker" accept="image/*" class="hidden">
+<input type="file" id="jsonPicker" accept="application/json,.json" class="hidden">
+
+<script>
+"use strict";
